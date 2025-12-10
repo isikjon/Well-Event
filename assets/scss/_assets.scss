@@ -1,0 +1,44 @@
+.main__btn {
+    padding: 10px 8px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .3s ease;
+    border: 2px solid #fff;
+    font-size: 14px;
+    &:hover {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+}
+.main__btn-outline {
+    padding: 10px 14px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .3s ease;
+    border: 2px solid #fff;
+    font-size: 14px;
+    &:hover {
+        background-color: #fff;
+        border: 2px solid #fff;
+        color: #000;
+    }
+}
+.main__btn-cart {
+    padding: 6px 8px;
+    background-color: #C5C6C8;
+    border-radius: 5px;
+    transition: all .3s ease;
+    cursor: pointer;
+    &:hover {
+        background-color: #fff;
+    }
+}
