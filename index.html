@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Well Event - Главная</title>
     <link rel="stylesheet" href="./assets/scss/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 
 <body>
@@ -44,7 +45,8 @@
                 <div class="hero__intro-content">
                     <div class="hero__intro-title">
                         <h1>Кейтеринг <br> для любых мероприятий</h1>
-                        <p>Мы организуем кейтеринг для свадеб, корпоративов, вечеринок и деловых мероприятий. Создаем гастрономический комфорт и незабываемую атмосферу</p>
+                        <p>Мы организуем кейтеринг для свадеб, корпоративов, вечеринок и деловых мероприятий. Создаем
+                            гастрономический комфорт и незабываемую атмосферу</p>
                         <a href="#" class="main__btn-outline">Рассчитать стоимость</a>
                     </div>
                 </div>
@@ -54,27 +56,313 @@
     <section class="about">
         <div class="container">
             <div class="about__wrapper">
-                <div class="about__item-card">
-                    <h2>Почему выбирают нас?</h2>
-                    <p>Кейтеринг в Санкт-Петербурге и Ленинградской области — это возможность превратить любое мероприятие в настоящий гастрономический праздник. Мы организуем выездное обслуживание для свадеб, дней рождения, корпоративов и других событий, создавая атмосферу высокого ресторанного уровня. Наша команда профессионалов заботится о каждой детали: от составления меню до подачи блюд, чтобы ваши гости наслаждались не только вкусной едой, но и безупречным сервисом.</p>
-                    <div class="about__item-card-grid-block">
-                        <div class="about__item-grid-block-item">
-                            <p>10 лет успешной работы</p>
-                            <p>Стильная подача</p>
-                            <p>Нет пробкового сбора</p>
-                            <p>Гарантия качества</p>
+                <div class="about__item-card about__item-card-text">
+                    <div class="about__item-card-title">
+                        <h2>Почему выбирают нас?</h2>
+                        <p>Кейтеринг в Санкт-Петербурге и Ленинградской области — это возможность превратить любое
+                            мероприятие в настоящий гастрономический праздник. Мы организуем выездное обслуживание для
+                            свадеб, дней рождения, корпоративов и других событий, создавая атмосферу высокого
+                            ресторанного уровня. Наша команда профессионалов заботится о каждой детали: от составления
+                            меню до подачи блюд, чтобы ваши гости наслаждались не только вкусной едой, но и безупречным
+                            сервисом.</p>
+                    </div>
+                    <div class="about__item-card-grid">
+                        <div class="about__item-grid-col">
+                            <p class="about__item-grid-item">10 лет успешной работы</p>
+                            <p class="about__item-grid-item">Стильная подача</p>
+                            <p class="about__item-grid-item">Нет пробкового сбора</p>
+                            <p class="about__item-grid-item">Гарантия качества</p>
                         </div>
-                        <div class="about__item-grid-block-item">
-                            <p>Соблюдение САНПИН</p>
-                            <p>Нет % за обслуживание</p>
-                            <p>Качественные продукты</p>
-                            <p>Любые формы оплаты</p>
+                        <div class="about__item-grid-col">
+                            <p class="about__item-grid-item">Соблюдение САНПИН</p>
+                            <p class="about__item-grid-item">Нет % за обслуживание</p>
+                            <p class="about__item-grid-item">Качественные продукты</p>
+                            <p class="about__item-grid-item">Любые формы оплаты</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__item-card about__item-card-parent-img">
+                    <div class="about__item-card-img">
+                        <img src="./assets/img/card_block.jpg" alt="card_block">
+                    </div>
+                </div>
+                <div class="about__item-card about__item-card-aside">
+                    <div class="about__item-card-head">
+                        <img src="./assets/img/card_block2.jpg" alt="card_block2">
+                    </div>
+                    <div class="about__item-card-body">
+                        <h3>Хотите провести банкет на природе, устроить фуршет в офисе или получить доставку готовых блюд прямо домой?</h3>
+                        <p>Мы сделаем все, чтобы ваше событие прошло на высшем уровне. 
+                            Наша цель — создать уникальный праздник по доступным ценам, чтобы каждая деталь радовала вас и ваших гостей.</p>
+                        <a href="#" class="main__btn-outline">Рассчитать стоимость</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services__header">
+                <h2 class="services__title">Наши услуги</h2>
+                <p class="services__subtitle">Мы организуем кейтеринг для частных и корпоративных событий на самом
+                    высоком уровне. Наша профессиональная команда обеспечивает безупречный сервис и красивую подачу
+                    блюд в любом формате: от торжественного банкета до легкого кофе-брейка.</p>
+            </div>
+            <div class="services__body">
+                <div class="services__group services__group--tall-right">
+                    <div class="services__card services__card--a1">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Свадебный кейтеринг</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--a2">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Корпоративный кейтеринг</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--a3">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Обслуживание деловых мероприятий</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--a4">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Кейтеринг на день рождения</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--a5 services__card--tall">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Кейтеринг для частных вечеринок</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__group services__group--tall-left">
+                    <div class="services__card services__card--b1 services__card--tall">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Кейтеринг на теплоходе</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--b2">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Новогодний кейтеринг</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--b3">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Кейтеринг на выставку</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--b4">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Доставка в офис</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
+                        </div>
+                    </div>
+                    <div class="services__card services__card--b5">
+                        <div class="services__card-content">
+                            <p class="services__card-title">Кейтеринг на дом</p>
+                            <a href="#" class="services__card-btn">Подробнее<span></span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="menu">
+        <div class="menu__head">
+            <h2 class="menu__title">Гастрономическое наслаждение <br> на ваш вкус</h2>
+        </div>
+        <div class="menu__layout">
+            <div class="menu__side menu__side--left">
+                <img src="./assets/img/jet1.png" alt="Классическое меню">
+                <span class="menu__side-label">Классическое меню</span>
+            </div>
+            <div class="menu__side menu__side--right">
+                <span class="menu__side-label">Индивидуальные решения</span>
+                <img src="./assets/img/jet2.png" alt="Индивидуальные решения">
+            </div>
+            <div class="menu__inner">
+                <div class="menu__content">
+                    <p class="menu__subtitle">Мы предлагаем широкий выбор кулинарных решений: от проверенных временем блюд нашего классического меню до полностью индивидуальных решений, разработанных специально для вас. Мы с легкостью адаптируем любое предложение, включая диетическое или вегетарианское меню, чтобы каждый гость остался доволен.</p>
+                    <div class="menu__actions">
+                        <a href="#" class="menu__btn menu__btn--fill">Посмотреть меню</a>
+                        <a href="#" class="menu__btn menu__btn--outline">Выбрать готовый набор</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process">
+        <div class="container">
+            <div class="process__head">
+                <h2 class="process__title">Как мы работаем</h2>
+            </div>
+            <div class="process__list">
+                <div class="process__item">
+                    <div class="process__item-top">
+                        <span class="process__number">1</span>
+                        <span class="process__icon"><img src="./assets/img/ico/sms.svg" alt="sms"></span>
+                    </div>
+                    <div class="process__item-body">
+                        <h3>Заявка на сайте</h3>
+                        <p>Вы оставляете нам заявку на сайте, рассказывая о своих пожеланиях. Это первый и самый важный шаг к воплощению вашей идеи!</p>
+                    </div>
+                </div>
+                <div class="process__item">
+                    <div class="process__item-top">
+                        <span class="process__number">2</span>
+                        <span class="process__icon"><img src="./assets/img/ico/chef.svg" alt="chef"></span>
+                    </div>
+                    <div class="process__item-body">
+                        <h3>Подбор меню</h3>
+                        <p>Наши специалисты помогут вам выбрать идеальное меню, учитывая все ваши предпочтения, формат мероприятия и количество гостей.</p>
+                    </div>
+                </div>
+                <div class="process__item">
+                    <div class="process__item-top">
+                        <span class="process__number">3</span>
+                        <span class="process__icon"><img src="./assets/img/ico/like.svg" alt="like"></span>
+                    </div>
+                    <div class="process__item-body">
+                        <h3>Согласование</h3>
+                        <p>Мы обсуждаем все детали – от меню и напитков до оформления и логистики, чтобы убедиться, что все соответствует вашим ожиданиям.</p>
+                    </div>
+                </div>
+                <div class="process__item">
+                    <div class="process__item-top">
+                        <span class="process__number">4</span>
+                        <span class="process__icon"><img src="./assets/img/ico/file.svg" alt="file"></span>
+                    </div>
+                    <div class="process__item-body">
+                        <h3>Оформление</h3>
+                        <p>Мы позаботимся о создании нужной атмосферы, будь то стильное декорирование столов, выбор посуды или создание уникальной концепции.</p>
+                    </div>
+                </div>
+                <div class="process__item">
+                    <div class="process__item-top">
+                        <span class="process__number">5</span>
+                        <span class="process__icon"><img src="./assets/img/ico/delivery.svg" alt="delivery"></span>
+                    </div>
+                    <div class="process__item-body">
+                        <h3>Организация кейтеринга</h3>
+                        <p>Финальный штрих — мы берем на себя всю организацию кейтеринга, чтобы ваше событие прошло безупречно, а гости остались довольны.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trust">
+        <div class="container">
+            <div class="trust__head">
+                <h2 class="trust__title">Нам доверяют</h2>
+                <div class="trust__badges">
+                    <a href="#" class="trust__badge trust__badge--yandex">
+                        <span class="trust__badge-title">Отзывы на Яндекс картах</span>
+                    </a>
+                    <a href="#" class="trust__badge trust__badge--2gis">
+                        <span class="trust__badge-title">Отзывы на 2Гис</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="trust__marquee">
+            <div class="trust__marquee-track">
+                <div class="trust__logo"><img src="./assets/img/brands/1.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/2.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/3.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/4.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/5.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/1.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/2.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/3.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/4.png" alt="brand"></div>
+                <div class="trust__logo"><img src="./assets/img/brands/5.png" alt="brand"></div>
+            </div>
+        </div>
+    </section>
+    <section class="letters">
+        <div class="container">
+            <div class="letters__head">
+                <h2 class="letters__title">Благодарственные письма</h2>
+                <div class="letters__arrows">
+                    <button class="letters__arrow letters__arrow--prev" type="button"></button>
+                    <button class="letters__arrow letters__arrow--next" type="button"></button>
+                </div>
+            </div>
+            <div class="letters__slider">
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/1.png" alt="letter 1">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/2.png" alt="letter 2">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/3.png" alt="letter 3">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/4.png" alt="letter 4">
+                </div>                <div class="letters__slide">
+                    <img src="./assets/img/certificate/1.png" alt="letter 1">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/2.png" alt="letter 2">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/3.png" alt="letter 3">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/4.png" alt="letter 4">
+                </div>                <div class="letters__slide">
+                    <img src="./assets/img/certificate/1.png" alt="letter 1">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/2.png" alt="letter 2">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/3.png" alt="letter 3">
+                </div>
+                <div class="letters__slide">
+                    <img src="./assets/img/certificate/4.png" alt="letter 4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.letters__slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                arrows: true,
+                prevArrow: $('.letters__arrow--prev'),
+                nextArrow: $('.letters__arrow--next'),
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: { slidesToShow: 3 }
+                    },
+                    {
+                        breakpoint: 900,
+                        settings: { slidesToShow: 2 }
+                    },
+                    {
+                        breakpoint: 640,
+                        settings: { slidesToShow: 1 }
+                    }
+                ]
+            });
+        });
+    </script>
 </body>
 
 </html>
