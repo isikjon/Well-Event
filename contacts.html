@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well Event - Контакты</title>
+    <link rel="stylesheet" href="./assets/scss/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__navbar">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__block">
+                        <a class="header__block-navbar-brand" href="index.html"><img src="./assets/img/logo_black.svg"
+                                alt="Well Event"></a>
+                        <ul>
+                            <li><a href="index.html#about">О нас</a></li>
+                            <li><a href="index.html#services">Услуги</a></li>
+                            <li><a href="index.html#menu">Меню</a></li>
+                            <li><a href="index.html#reviews">Отзывы</a></li>
+                            <li><a href="portfolio.html">Портфолио</a></li>
+                            <li><a href="index.html#venues">Площадки</a></li>
+                            <li><a href="index.html#mobile">Мобильный фуршет</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__block">
+                        <div class="header__block-item header__block-item-phone">
+                            <img src="./assets/img/ico/phone.png" alt="phone">
+                            <a href="tel:+8 (812) 648-02-68">8 (812) 648-02-68</a>
+                        </div>
+                        <div class="header__block-item"><a href="#" class="header__btn">Оставить заявку</a></div>
+                        <div class="header__block-item header__btn-cart"><a href="#"><img src="./assets/img/ico/cart.png"
+                                    alt="cart"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="contacts contacts-page">
+        <div class="container">
+            <h2 class="contacts__title contacts__title--center">КОНТАКТЫ</h2>
+            <div class="contacts__wrapper">
+                <div class="contacts__left">
+                    <div class="contacts__head">
+                        <div class="contacts__top">
+                            <div class="contacts__col">
+                                <span class="contacts__label">Телефон</span>
+                                <a href="tel:+78126480268" class="contacts__link">8 (812) 648-02-68</a>
+                                <a href="tel:+89111912122" class="contacts__link">8 (911) 119-21-22</a>
+                            </div>
+                            <div class="contacts__col">
+                                <span class="contacts__label">Email</span>
+                                <a href="mailto:sales@wellevent.ru" class="contacts__link">sales@wellevent.ru</a>
+                                <a href="mailto:wellevent@mail.ru" class="contacts__link">wellevent@mail.ru</a>
+                            </div>
+                            <div class="contacts__col">
+                                <span class="contacts__label">Адрес</span>
+                                <p class="contacts__text">196084 г.Санкт-Петербург<br>Маслянный переулок д.8К</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__info-block">
+                        <div class="contacts__info-item">
+                            <h3 class="contacts__info-title">Время работы:</h3>
+                            <p class="contacts__info-text">Каждый день с 9:00 до 21:00</p>
+                        </div>
+                        <div class="contacts__info-item">
+                            <h3 class="contacts__info-title">Время доставки:</h3>
+                            <p class="contacts__info-text">Каждый день с 9:00 до 21:00</p>
+                        </div>
+                        <p class="contacts__info-note">Обращаем ваше внимание, что заказ принимается за 6 часов до желаемого времени доставки, соответствующего времени работы организации</p>
+                    </div>
+                </div>
+                <div class="contacts__right">
+                    <div class="contacts__map-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="container order__body">
+            <div class="order__left">
+                <h2 class="order__title">Готовы оформить заказ?</h2>
+                <p class="order__subtitle">Заполните форму, и мы организуем ваш кейтеринг на высшем уровне</p>
+            </div>
+            <div class="order__form-wrap">
+                <form class="order__form">
+                    <div class="order__row order__row--double">
+                        <input type="text" class="order__input" placeholder="Ваше имя">
+                        <input type="tel" class="order__input" placeholder="Номер телефона">
+                    </div>
+                    <div class="order__row order__row--double">
+                        <div class="order__field order__field--icon">
+                            <input type="text" class="order__input" placeholder="Дата мероприятия" style="max-width: 325px;">
+                            <span class="order__icon order__icon--calendar"></span>
+                        </div>
+                        <div class="order__field order__field--icon">
+                            <select class="order__input order__select">
+                                <option value="" selected disabled>Выберите формат мероприятия</option>
+                                <option value="banket">Банкет</option>
+                                <option value="furshet">Фуршет</option>
+                                <option value="coffee">Кофе-брейк</option>
+                            </select>
+                            <span class="order__icon order__icon--arrow"></span>
+                        </div>
+                    </div>
+                    <div class="order__row">
+                        <input type="text" class="order__input" placeholder="Укажите количество гостей">
+                    </div>
+                    <div class="order__row">
+                        <textarea class="order__textarea" placeholder="Комментарий"></textarea>
+                    </div>
+                    <button type="submit" class="order__btn">Отправить</button>
+                    <p class="order__policy">Нажимая на кнопку, вы соглашаетесь с <span>политикой
+                            конфиденциальности</span></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__divider"></div>
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__col footer__col--logo">
+                    <a href="index.html" class="footer__logo">
+                        <img src="./assets/img/logo.svg" alt="Well Event">
+                    </a>
+                </div>
+                <div class="footer__col footer__col--nav">
+                    <h3 class="footer__heading">НАВИГАЦИЯ</h3>
+                    <ul class="footer__list">
+                        <li><a href="index.html#about" class="footer__link">О НАС</a></li>
+                        <li><a href="index.html#menu" class="footer__link">МЕНЮ</a></li>
+                        <li><a href="index.html#reviews" class="footer__link">ОТЗЫВЫ</a></li>
+                        <li><a href="portfolio.html" class="footer__link">ПОРТФОЛИО</a></li>
+                        <li><a href="index.html#venues" class="footer__link">ПЛОЩАДКИ</a></li>
+                        <li><a href="index.html#mobile" class="footer__link">МОБИЛЬНЫЙ ФУРШЕТ</a></li>
+                        <li><a href="contacts.html" class="footer__link">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col--services">
+                    <h3 class="footer__heading">УСЛУГИ</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">СВАДЕБНЫЙ КЕЙТЕРИНГ</a></li>
+                        <li><a href="#" class="footer__link">КОРПОРАТИВНЫЙ КЕЙТЕРИНГ</a></li>
+                        <li><a href="#" class="footer__link">КЕЙТЕРИНГ ДЛЯ ЧАСТНЫХ ВЕЧЕРИНОК</a></li>
+                        <li><a href="#" class="footer__link">ОБСЛУЖИВАНИЕ ДЕЛОВЫХ МЕРОПРИЯТИЙ</a></li>
+                        <li><a href="#" class="footer__link">КЕЙТЕРИНГ НА ДЕНЬ РОЖДЕНИЯ</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col--services-continued">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">КЕЙТЕРИНГ НА ВОДЕ</a></li>
+                        <li><a href="#" class="footer__link">НОВОГОДНИЙ КЕЙТЕРИНГ</a></li>
+                        <li><a href="#" class="footer__link">КЕЙТЕРИНГ НА ВЫСТАВКУ</a></li>
+                        <li><a href="#" class="footer__link">ДОСТАВКА В ОФИС</a></li>
+                        <li><a href="#" class="footer__link">КЕЙТЕРИНГ НА ДОМ</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col--social">
+                    <h3 class="footer__heading">МЫ В СОЦ. СЕТЯХ:</h3>
+                    <div class="footer__social-icons">
+                        <a href="#" class="footer__social-link">
+                            <img src="./assets/img/ico/vk.svg" alt="VKontakte">
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <img src="./assets/img/ico/insta.svg" alt="Instagram">
+                        </a>
+                    </div>
+                    <p class="footer__social-note">*принадлежит компании Мета, признанной экстремистской и запрещенной
+                        на территории РФ</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 WELL EVENT</p>
+                <div class="footer__legal">
+                    <a href="#" class="footer__legal-link">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                    <a href="#" class="footer__legal-link">ПУБЛИЧНАЯ ОФЕРТА</a>
+                    <a href="#" class="footer__legal-link">ДОСТАВКА И ОПЛАТА</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
+
